@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+    color: #007acc;
+  }
+  
+  .author {
+    font-size: 1.3em;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    color: #666;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+  
+  .lab-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lab-list li {
+    margin: 25px 0; /* MÁS espacio vertical entre botones */
+  }
+  
+  .lab-list a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #007acc;
+    padding: 12px 24px;
+    border: 2px solid #007acc;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+    display: inline-block;
+    min-width: 280px;
+  }
+  
+  .lab-list a:hover {
+    background-color: #007acc;
+    color: white;
+  }
+  
